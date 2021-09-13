@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <script src="https://use.fontawesome.com/5a4c016829.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700&display=swap" rel="stylesheet">    
+    
+    <title>University Website Design</title>
+</head>
+<body>
+    <section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="/public/images/logo.png" alt=""></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="/index.html">HOME</a></li>
+                <li><a href="/about.html">ABOUT</a></li>
+                <li><a href="/course.html">COURSE</a></li>
+                <li><a href="">BLOG</a></li>
+                <li><a href="/contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+    <h1>Our Certificate & Online Programs For 2021</h1>
+    </section>
+
+
+    <!-- Blog Page content -->
+    <section class="blog-content">
+        <div class="row">
+            <div class="div blog-left">
+                <img src="/public/images/certificate.jpg" alt="">
+                <h2>Our Certificate & Online Programs For 2021</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae magnam distinctio, ab iure, inventore sapiente 
+                    blanditiis perspiciatis possimus totam beatae nobis ducimus obcaecati numquam repudiandae iusto non impedit 
+                    eaque odio architecto fugit tempora nesciunt? Laudantium debitis, magnam suscipit maxime, nihil officia pariatur iusto 
+                    vitae iure voluptates id expedita ipsam modi.</p> <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam modi id itaque doloremque repellat maxime distinctio quos, 
+                    nostrum quo dolorem. Laboriosam, molestiae itaque cupiditate harum nihil tempora magnam, saepe est quae iusto unde nulla, eveniet 
+                    debitis natus ad aliquid distinctio. Soluta aliquid magni pariatur adipisci magnam tenetur amet minima facilis, praesentium 
+                    nam omnis ullam similique officiis? Minus quidem ipsam mollitia quod asperiores delectus. Asperiores illo totam, voluptatum tempora, 
+                    omnis atque, soluta maiores molestiae eligendi vero maxime eum tenetur optio non!</p> <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In atque provident necessitatibus dignissimos, delectus porro 
+                    totam reiciendis quaerat voluptates suscipit asperiores error dolor quae explicabo inventore molestias sint esse, adipisci 
+                    sunt eveniet odio laboriosam veritatis repudiandae. Quis saepe tempora placeat cumque voluptate! Nemo unde quo tempora 
+                    repudiandae consequuntur recusandae, doloribus porro nihil enim dignissimos quam obcaecati facere fugiat, itaque impedit?</p>
+                
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your comment..."></textarea>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                    </form>
+                </div>                    
+
+            </div>
+
+
+
+
+            <div class="div blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <a href=""><span>Business analytics</span></a> 
+                    <span>33</span>
+                </div>
+                <div>
+                    <a href=""><span>Data Science</span></a> 
+                    <span>45</span>
+                </div>
+                <div>
+                    <a href=""><span>Machine Learning</span></a>
+                    <span>9</span>
+                </div>              
+                <div>
+                    <a href=""><span>Computer Science</span></a> 
+                    <span>27</span>
+                </div>
+                <div>
+                    <a href=""><span>Rocket Science</span></a>
+                    <span>36</span>
+                </div>                  
+            </div>            
+        </div>
+    </section>
+
+     <!-- Call to Action -->
+     <section class="cta">
+         <h1>Enroll for our various online courses<br>from anywhere in the world.</h1>
+         <a href="" class="hero-btn">CONTACT US</a>
+
+     </section>
+
+     <!-- Footer -->
+     <section class="footer">
+         <h4>About Us</h4>
+         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum non eligendi illum ipsam dignissimos fuga 
+            autem neque<br>perspiciatis explicabo dicta voluptatibus accusantium error ex, nobis maiores ipsa est 
+            porro quae.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made With <i class="fa fa-heart-o"></i> By dESIGN wORX fACTORY</p>
+
+     </section>
+
+    <!-- Script to Toggle Menu -->
+    <script>
+        varLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            console.log("open button clicked...")
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            console.log("close button clicked...")
+            navLinks.style.right = "-200px";
+        }
+
+
+    </script>
+</body>
+</html>
